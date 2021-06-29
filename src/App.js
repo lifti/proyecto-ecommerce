@@ -8,7 +8,6 @@ import Navbar from './Sesiones/Navbar';
 function App() {
   return (
     <div>
-
       <h1>E-Commerce</h1>
 
       <Navbar></Navbar>
