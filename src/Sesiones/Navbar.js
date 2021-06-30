@@ -5,7 +5,8 @@ const Navbar = () => {
         <div>
         <nav ClassName="navbar navbar-expand-lg navbar-light bg-light">
             <div ClassName="container-fluid">
-                <a ClassName="navbar-brand" href="a"> <img src="./assets/Logo bienti circulo.jpeg" alt="" width="30" height="24"></img> Bienti</a>
+            <img src="./assets/Login Bienti circulo.jpeg"  alt="" width="30" height="24"></img>
+                <a ClassName="navbar-brand" href="a">Bienti</a>
                 <div ClassName="collapse navbar-collapse" id="navbarNav">
                     <ul ClassName="navbar-nav">
                         <li ClassName="nav-item">
