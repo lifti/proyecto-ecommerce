@@ -2,25 +2,25 @@ import React from 'react'
 
 const Registro = () => {
     return (
-        <div>
+        <div className="container d-flex flex-wrap">
              <form>
-                <div ClassName="mb-3">
-                    <label for="exampleInputEmail1" ClassName="form-label">Email address</label>
-                    <input type="email" ClassName="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
-                    <div id="emailHelp" ClassName="form-text">We'll never share your email with anyone else.</div>
+                <div className="mb-3">
+                    <label htmlFor="exampleInputEmail1" className="form-label">Correo Electrónico</label>
+                    <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"></input>
+                    <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                 </div>
 
-                <div ClassName="mb-3">
-                    <label for="exampleInputPassword1" ClassName="form-label">Password</label>
-                    <input type="password" ClassName="form-control" id="exampleInputPassword1"></input>
+                <div className="mb-3">
+                    <label htmlFor="exampleInputPassword1" className="form-label">Contraseña</label>
+                    <input type="password" className="form-control" id="exampleInputPassword1"></input>
                 </div>
 
-                <div ClassName="mb-3 form-check">
-                    <input type="checkbox" ClassName="form-check-input" id="exampleCheck1"></input>
-                    <label ClassName="form-check-label" for="exampleCheck1">Check me out</label>
+                <div className="mb-3 form-check">
+                    <input type="checkbox" className="form-check-input" id="exampleCheck1"></input>
+                    <label className="form-check-label" htmlFor="exampleCheck1">Check me out</label>
                 </div>
                 
-                <button type="submit" ClassName="btn btn-primary">Submit</button>
+                <button type="submit" className="btn btn-primary">Ingresar</button>
             </form>
         </div>
     )
